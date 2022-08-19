@@ -11,3 +11,11 @@ another push
 This is amazing!
 
 weewoo weewoo
+
+```{r}
+library(tidyverse)
+
+good_dogs <- function(dog_name) {
+  print(paste(dog_name, "is a good dog"))
+}
+```
